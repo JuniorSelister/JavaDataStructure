@@ -13,7 +13,7 @@ public class BubbleSort {
 				}
 			}
 		}
-		
+		 
 		for(int value : intArray) {
 			System.out.print(value + " ");
 		}
