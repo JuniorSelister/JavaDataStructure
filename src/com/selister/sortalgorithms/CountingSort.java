@@ -3,11 +3,12 @@ package com.selister.sortalgorithms;
 public class CountingSort {
 
 	public static void main(String[] args) {
+		
 		// NOT an in-place algorithm
-		// O9n) - can achieve this because we're making
+		// O(n) - can achieve this because we're making
 		// assumptions about the data we're sorting
 		// If we want to sort to be stable, we have to do
-		// some extra steps
+		// some extra steps (check RadixSort)
 		
 		int[] intArray = { 2, 5, 9, 8, 2 , 8, 7, 10, 4, 3};
 		
