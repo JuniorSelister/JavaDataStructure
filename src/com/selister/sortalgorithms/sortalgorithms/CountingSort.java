@@ -1,4 +1,4 @@
-package com.selister.sortalgorithms;
+package com.selister.sortalgorithms.sortalgorithms;
 
 public class CountingSort {
 
