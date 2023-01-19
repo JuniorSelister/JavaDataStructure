@@ -20,7 +20,6 @@ public class DoublyLinkedListMain {
 
         list.printList();
 
-
 //        System.out.println("Is empty? " + list.isEmpty() + "\n");
 
         Employee billEnd = new Employee("Bill", "End", 78);
@@ -29,13 +28,21 @@ public class DoublyLinkedListMain {
         System.out.println("\nSize: " + list.getSize());
         list.printList();
 
+        System.out.println("\nSize: " + list.getSize());
+        list.printList();
+
+        System.out.println("\nSize: " + list.getSize());
+        list.printList();
+
+        list.addBefore(billEnd, johnDoe);
+        list.printList();
+
+        list.addBefore(new Employee("Bruce", "Wayne", 1100), mikeWilson);
+        list.printList();
+
+        System.out.println("\nRemoving Node from front and end");
         list.removeFromFront();
-        System.out.println("\nSize: " + list.getSize());
-        list.printList();
-
         list.removeFromEnd();
-        System.out.println("\nSize: " + list.getSize());
         list.printList();
-
     }
 }
