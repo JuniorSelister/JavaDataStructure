@@ -17,6 +17,7 @@ public class HashtableMain {
 
         ht.printHashtable();
         System.out.println("\nRetrieve key wilson: " + ht.get("Wilson"));
+        System.out.println("Retrieve key Smith: " + ht.get("Smith"));
 
     }
 }
