@@ -14,7 +14,6 @@ public class BucketSortMain {
         for (int value : intArray) {
             System.out.print(value + " ");
         }
-
     }
 
     public static void bucketSort(int[] input) {
