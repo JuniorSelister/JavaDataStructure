@@ -36,3 +36,17 @@
 * Fix heap below - swap the replacement value with the larger of its two children
 * Rinse and repeat in both cases until the replacement value is in its correct position
 * It will only need to fix up or down, not both
+
+### Sort Heaps
+
+* We know the root has the largest value
+* Swap root with last element in the array
+* Heapify the tree, but exclude the last node
+* After heapify, second largest element is at the root
+* Rinse and repeat
+
+## Complexity time for Heaps
+
+* Get max or Min element - O(1)
+* Remove Max or Min element - O(Log n)
+* Insert an element - O(Log n)

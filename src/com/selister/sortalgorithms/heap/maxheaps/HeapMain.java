@@ -15,13 +15,17 @@ public class HeapMain {
         heap.insert(67);
 
         heap.printHeap();
+        heap.sort();
+
+        System.out.println("\nHeap sort below");
+        heap.printHeap();
 
         heap.delete(5);
-        System.out.println();
+        System.out.println("\n");
         heap.printHeap();
 
         System.out.println();
-        System.out.println(heap.peek());
+        System.out.println("Heap peek " + heap.peek());
 
     }
 }
