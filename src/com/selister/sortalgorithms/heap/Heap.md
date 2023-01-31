@@ -36,3 +36,10 @@
 * Fix heap below - swap the replacement value with the larger of its two children
 * Rinse and repeat in both cases until the replacement value is in its correct position
 * It will only need to fix up or down, not both
+
+## Complexity time for Heaps
+
+* Get max or Min element - O(1)
+* Remove Max or Min element - O(Log n)
+* Insert an element - O(Log n)
+

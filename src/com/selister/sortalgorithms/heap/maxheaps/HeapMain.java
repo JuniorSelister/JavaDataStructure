@@ -20,5 +20,8 @@ public class HeapMain {
         System.out.println();
         heap.printHeap();
 
+        System.out.println();
+        System.out.println(heap.peek());
+
     }
 }
